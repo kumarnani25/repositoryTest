@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="Testscripts.invokebrowser"/>
+      <class name="Testscripts.orangehrm"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
