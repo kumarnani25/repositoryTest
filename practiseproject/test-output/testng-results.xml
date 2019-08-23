@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="12830" started-at="2019-08-23T16:23:24Z" finished-at="2019-08-23T16:23:36Z">
+  <suite name="Suite" duration-ms="8332" started-at="2019-08-23T16:35:00Z" finished-at="2019-08-23T16:35:09Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="12830" started-at="2019-08-23T16:23:24Z" finished-at="2019-08-23T16:23:36Z">
-      <class name="Testscripts.orangehrm">
-        <test-method status="PASS" signature="test2()[pri:0, instance:Testscripts.orangehrm@1e88b3c]" name="test2" duration-ms="12783" started-at="2019-08-23T16:23:24Z" finished-at="2019-08-23T16:23:36Z">
+    <test name="Test" duration-ms="8332" started-at="2019-08-23T16:35:00Z" finished-at="2019-08-23T16:35:09Z">
+      <class name="Testscripts.invokebrowser">
+        <test-method status="PASS" signature="test()[pri:0, instance:Testscripts.invokebrowser@93dd95]" name="test" duration-ms="5929" started-at="2019-08-23T16:35:00Z" finished-at="2019-08-23T16:35:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-      </class> <!-- Testscripts.orangehrm -->
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:Testscripts.invokebrowser@93dd95]" name="test1" is-config="true" duration-ms="2367" started-at="2019-08-23T16:35:06Z" finished-at="2019-08-23T16:35:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- Testscripts.invokebrowser -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
