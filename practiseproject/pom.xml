@@ -47,10 +47,18 @@
 
 
 <dependency>
+                <groupId>com.sun.mail</groupId>
+                <artifactId>javax.mail</artifactId>
+                <version>1.6.2</version>
+            </dependency>
+
+
+<dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
             <version>3.17</version>
         </dependency>
+       
         </dependencies>
         
         <build>
@@ -63,7 +71,7 @@
         <configuration>
       <suiteXmlFiles>
       <suiteXmlFile>
-      ${xmlFiles}
+      testng.xml
       </suiteXmlFile>
       
       </suiteXmlFiles>

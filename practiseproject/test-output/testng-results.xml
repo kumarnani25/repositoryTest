@@ -2,20 +2,39 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="8332" started-at="2019-08-23T16:35:00Z" finished-at="2019-08-23T16:35:09Z">
+  <suite name="Default suite" duration-ms="8915" started-at="2019-11-18T17:23:24Z" finished-at="2019-11-18T17:23:33Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="8332" started-at="2019-08-23T16:35:00Z" finished-at="2019-08-23T16:35:09Z">
+    <test name="Default test" duration-ms="8915" started-at="2019-11-18T17:23:24Z" finished-at="2019-11-18T17:23:33Z">
       <class name="Testscripts.invokebrowser">
-        <test-method status="PASS" signature="test()[pri:0, instance:Testscripts.invokebrowser@93dd95]" name="test" duration-ms="5929" started-at="2019-08-23T16:35:00Z" finished-at="2019-08-23T16:35:06Z">
+        <test-method status="PASS" signature="html()[pri:0, instance:Testscripts.invokebrowser@19d1a19]" name="html" is-config="true" duration-ms="223" started-at="2019-11-18T17:23:24Z" finished-at="2019-11-18T17:23:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- html -->
+        <test-method status="PASS" signature="test()[pri:0, instance:Testscripts.invokebrowser@19d1a19]" name="test" duration-ms="6555" started-at="2019-11-18T17:23:24Z" finished-at="2019-11-18T17:23:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:Testscripts.invokebrowser@93dd95]" name="test1" is-config="true" duration-ms="2367" started-at="2019-08-23T16:35:06Z" finished-at="2019-08-23T16:35:09Z">
+        <test-method status="PASS" signature="test321(org.testng.ITestResult)[pri:0, instance:Testscripts.invokebrowser@19d1a19]" name="test321" is-config="true" duration-ms="4" started-at="2019-11-18T17:23:31Z" finished-at="2019-11-18T17:23:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test status=SUCCESS method=invokebrowser.test()[pri:0, instance:Testscripts.invokebrowser@19d1a19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test321 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:Testscripts.invokebrowser@19d1a19]" name="test1" is-config="true" duration-ms="2332" started-at="2019-11-18T17:23:31Z" finished-at="2019-11-18T17:23:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test321()[pri:0, instance:Testscripts.invokebrowser@19d1a19]" name="test321" is-config="true" duration-ms="348" started-at="2019-11-18T17:23:33Z" finished-at="2019-11-18T17:23:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test321 -->
       </class> <!-- Testscripts.invokebrowser -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
